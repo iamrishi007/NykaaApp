@@ -1,0 +1,33 @@
+.grid>div>img{
+     height: 200px;
+     width: 200px;
+}
+.grid img {
+     border-radius: 8px;
+     transition: transform 0.3s;
+ }
+ 
+ .grid img:hover {
+     transform: scale(1.05);
+ }
+ 
+ h1, h2 {
+     color: #333;
+     text-align: center;
+ }
+ 
+ p {
+     text-align: center;
+     font-weight: bold;
+ }
+ 
+ .container {
+     width: 93%;
+     margin: 0 auto;
+     padding: 10px;
+ }
+ 
+ .text{
+    text-align: start;
+    color: #0056b3;
+}

@@ -1,0 +1,80 @@
+/* Custom styles for the slider container */
+.slider-container {
+     width: 95%;
+     margin: 0 auto;
+     padding: 40px 0;
+     font-size: 16px;
+
+   }
+   
+   /* Custom styles for each image in the slider */
+   .slider-container .slick-slide img {
+     display: block;
+     width: 100%;
+     height: auto;
+     margin: 0 auto;
+   }
+   
+   /* Custom styles for the arrows */
+   .slick-prev,
+   .slick-next {
+     font-size: 30px;
+     line-height: 1;
+     opacity: 0.75;
+     color: black;
+     border: none;
+     background: none;
+     transition: opacity 0.2s ease;
+   }
+   
+   .slick-prev:hover,
+   .slick-next:hover {
+     opacity: 1;
+   }
+   
+   .slick-prev:before,
+   .slick-next:before {
+     font-family: "slick";
+     font-size: 1px;
+     line-height: 1;
+     opacity: 0.75;
+     color: red;
+   }
+   
+   .slick-prev:before {
+     content: "←";
+   }
+   
+   .slick-next:before {
+     content: "→";
+   }
+   
+   /* Custom styles for the dots */
+   .slick-dots li button:before {
+     font-size: 12px;
+     color: black;
+   }
+   
+   .slick-dots li.slick-active button:before {
+     color: black;
+   }
+   
+   /* Ensure the slider images have a consistent height */
+   .slick-slide img {
+     height: 300px; /* Adjust as necessary for your images */
+     object-fit: cover;
+   }
+   .slider-container {
+    padding: 20px; /* Padding around the entire slider */
+  }
+  
+  .slick-slide > div {
+    margin: 0 10px; /* Gap between slides */
+  }
+  
+  .slick-slide img {
+    width: 100%;
+    border-radius: 10px; /* Optional: Add rounded corners to images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow to images */
+  }
+  
